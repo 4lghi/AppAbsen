@@ -1,9 +1,10 @@
 import React from 'react';
 import {Text, View, StyleSheet, Image, ScrollView} from 'react-native';
-import Profil from './Profil';
-import SettingAndAccount from './SettingAndAccount';
-import Camera from './Camera';
-import Menus from './Menus';
+import Profil from '../../components/Profil';
+import SettingAndAccount from '../../components/SettingAndAccount';
+import Camera from '../../components/Camera';
+import Menus from '../../components/Menus';
+import DaftarWajah from '../DaftarWajah/DaftarWajah';
 
 const Home = () => {
   return (
@@ -34,11 +35,11 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     marginHorizontal: 10,
   },
-  camera:{
-    position:'absolute',
-    bottom:25,
-    right:140,
-  }
+  camera: {
+    position: 'absolute',
+    bottom: 25,
+    right: 140,
+  },
 });
 
 export default Home;

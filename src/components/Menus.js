@@ -6,8 +6,6 @@ const Menus = () => {
         <View>
             <Menu desc="DAFTAR WAJAH"/>
             <Menu desc="RIWAYAT ABSENSI"/>
-            <Menu desc="DATA REAL TIME"/>
-            <Menu desc="DATA REAL TIME"/>
         </View>
     )
 }
@@ -40,3 +38,4 @@ const styles = StyleSheet.create({
 });
 
 export default Menus;
+

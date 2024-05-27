@@ -1,12 +1,13 @@
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
-import Home from './components/Home';
+import Home from './pages/Home/Home';
+import { View } from 'react-native';
 
 const App = () => {
   return (
-    <View>
-      <Home/>
-    </View>
+
+ <View>
+  <Home/>
+ </View>
   );
 };
 
